@@ -1,4 +1,5 @@
 terraform {
+  required_version = ">= 1.0.0"
   backend "s3" {
     bucket = "sctp-ce6-tfstate"
     key    = "ben4-eb.tfstate" #Remember to change this
